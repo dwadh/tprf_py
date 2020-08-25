@@ -1,7 +1,7 @@
 # tprf_py
 Python implementation of the Three Pass Regression Filter [1] introduced in the paper by Bryan Kelly and Seth Pruitt:
 
-This code replicates the simulation results but can be modified to work with other datasets. The implementation is based on my understanding of the paper, open to comments and suggestions. For comparison during the simulation, the code for Principal Components Regression (PCR) [2], LASSO version of the ‘‘targeted predictors’’ approach (PCLAS) [3].
+This code replicates the simulation results but can be modified to work with other datasets. The implementation is based on my understanding of the paper, open to comments and suggestions. For comparison during the simulation, the code for Principal Components Regression (PCR) [2], LASSO version of the ‘‘targeted predictors’’ approach (PCLAS) [3] is also included.
 
 The main file for execution is runner.py.
 tprf_code contains the code for the three pass regression filter, PCR, PCLAS.
